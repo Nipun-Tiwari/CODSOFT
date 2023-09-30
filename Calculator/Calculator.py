@@ -71,9 +71,9 @@ Button(f3, text="*", command=lambda: addStr('*'), font="arial 20", bg="#CFB6A2",
        padx=padBX, pady=padBY).grid(row=1, column=0, padx=padX, pady=padY)
 Button(f3, text="/", command=lambda: addStr('/'), font="arial 20", bg="#CFB6A2", relief=RAISED, borderwidth=5,
        padx=padBX, pady=padBY).grid(row=1, column=1, padx=padX, pady=padY)
-Button(f3, text="C", command=delStr, font="arial 20", bg="#CFB6A2", relief=RAISED, borderwidth=5,
+Button(f3, text="CE", command=delStr, font="arial 20", bg="#CFB6A2", relief=RAISED, borderwidth=5,
        padx=padBX, pady=padBY).grid(row=2, column=0, padx=padX, pady=padY)
-Button(f3, text="CE", command=delAll, font="arial 20", bg="red", relief=RAISED, borderwidth=5,
+Button(f3, text="C", command=delAll, font="arial 20", bg="red", relief=RAISED, borderwidth=5,
        padx=padBX, pady=padBY).grid(row=2, column=1, padx=padX, pady=padY)
 Button(f3, text="=", command=calculate_result, font="arial 20", bg="#43ed12", relief=RAISED, borderwidth=5,
        padx=padBX, pady=padBY).grid(row=3, column=0, padx=padX, pady=padY)
